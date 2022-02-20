@@ -1,0 +1,16 @@
+{
+  "name": "api_lokasi",
+  "version": "1.0.0",
+  "description": "Ini adalah api lokasi",
+  "main": "api.js",
+  "scripts": {
+    "test": "node api.js"
+  },
+  "author": "Muhammad Ichsan Haekal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "original-fs": "^1.1.0"
+  },
+  "devDependencies": {}
+}
