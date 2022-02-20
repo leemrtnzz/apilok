@@ -16,5 +16,6 @@ app.get('/lokasi', (req, res) => {
 })
 
 
-app.listen(8080)
-console.log('Server Sedang Jalan')
+app.listen(process.env.PORT || 3000, function(){
+    console.log('Server Sedang Jalan')
+})
