@@ -1,7 +1,7 @@
 const { readFileSync } = require('original-fs')
 const express = require('express')
 const app = express()
-
+const axios = require('axios')
 
 const url = 'https://api.myquran.com/v1/sholat/kota/semua'
 app.get('/',(req, res) => {
