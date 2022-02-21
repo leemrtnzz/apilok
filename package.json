@@ -4,7 +4,7 @@
   "description": "Ini adalah api lokasi",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "start": "node index.js"
   },
   "author": "Muhammad Ichsan Haekal",
   "license": "ISC",
